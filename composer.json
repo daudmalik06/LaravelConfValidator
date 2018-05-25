@@ -1,0 +1,24 @@
+{
+    "name": "dawood/laravelconfvalidator",
+    "description": "laravel global validation based on laravel config",
+    "authors": [
+        {
+            "name": "Dawood ikhlaq",
+            "email": "dawood.ikhlaq@nubilaria.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dawood\\LaravelConfValidator\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dawood\\LaravelConfValidator\\LaraConValidatorServiceProvider"
+            ]
+        }
+    }
+}
