@@ -14,7 +14,7 @@ class LaraConValidatorServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/user.php' => config_path('validation/new/user.php')
+            __DIR__.'/user.php' => config_path('validation/user.php')
         ], 'config');
     }
 
